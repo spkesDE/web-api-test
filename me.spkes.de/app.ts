@@ -1,6 +1,6 @@
 import Homey from 'homey';
 
-class MyApp extends Homey.App {
+class OtherAppApi extends Homey.App {
 
   /**
    * onInit is called when the app is initialized.
@@ -14,8 +14,10 @@ class MyApp extends Homey.App {
   }
   fooPost(body: any) {
     this.log(body);
+    console.log(body);
+    return body;
   }
 
 }
 
-module.exports = MyApp;
+module.exports = OtherAppApi;

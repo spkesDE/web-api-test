@@ -19,7 +19,7 @@ class MyApp extends Homey.App {
 
     this.log('Get request - expected bar')
     await this.otherAppApi.get('/').then(this.log).catch(this.error);
-    this.log('POST response - expected null')
+    this.log('POST response - expected {foo: "bar"}')
     await this.otherAppApi.post('/', {foo: "bar"}).then(this.log).catch(this.error);
 
     this.log('MyApp has been initialized');

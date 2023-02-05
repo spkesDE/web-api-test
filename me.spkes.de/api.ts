@@ -4,6 +4,6 @@ module.exports = {
     },
     async fooPost({homey, body}: any) {
         console.log(body);
-        return await homey.app.fooPost(body);
+        return homey.app.fooPost(body);
     }
 };
