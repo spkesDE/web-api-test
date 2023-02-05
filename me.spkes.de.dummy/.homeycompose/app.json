@@ -1,0 +1,28 @@
+{
+  "id": "me.spkes.de.dummy",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "dummy-app-2"
+  },
+  "description": {
+    "en": "test"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": ["homey:app:me.spkes.de"],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Julian Suhl",
+    "email": "julian@suhl.de"
+  }
+}
