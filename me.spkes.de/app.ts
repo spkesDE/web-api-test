@@ -14,7 +14,6 @@ class OtherAppApi extends Homey.App {
   }
   fooPost(body: any) {
     this.log(body);
-    console.log(body);
     return body;
   }
 

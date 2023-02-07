@@ -3,7 +3,6 @@ module.exports = {
         return await homey.app.foo();
     },
     async fooPost({homey, body}: any) {
-        console.log(body);
         return homey.app.fooPost(body);
     }
 };
